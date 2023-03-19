@@ -27,7 +27,7 @@ env:
 
 jobs:
   build:
-    if: github.repository == 'apache/skywalking-eyes'
+    if: github.repository == 'jiang1997/skywalking-eyes'
     runs-on: ubuntu-latest
     permissions:
       contents: read
